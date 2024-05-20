@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satyam - Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left">Satyam's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#hhome">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#expi">Experience</a></li>
+                    <li><a href="#expi">Projects</a></li>
+                    <li><a href="resume.pdf" target="blank">Resume</a></li>
+                    <li><a href="#conttact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="hhome" class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Satyam Raj</span>
+
+                <div>and I'm a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn" href="resume.pdf" target="blank">Resume</button>
+                    <button class="btn" href="https://github.com/SatyamRaj04" target="blank">Github</button>
+                    <button class="btn" href="www.linkedin.com/in/satyam-raj-ril0436" target="blank">Linkedin</button>
+                    <button class="btn" href="#" target="blank">Twitter</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="Daco.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="boster.png" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>3 years ago, I started learning everything, from beginning, required for becoming a developer. Since then, I've learnt a lot and there's still many more. I've done multiple projects to gain practical experience and gained experience by working under some product based companies. <br>There's still a lot left to achieve...</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Coding Languages</span><br>C, C++, Python, Java</li>
+                                <li><span>Web Technology</span><br>HTML, CSS, JavaScript, Php, ReactJs</li>
+                                <li><span>Database</span><br>MySQL, RDBMS</li>
+                                <li><span>Data Science</span><br>AI, Machine Learning, Deep Learning</li>
+                                <li><span>Tools</span><br>Spring Boot, Svelte kit, Git, Github</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="hobbies">
+                            <ul>
+                                <li><span>Sports</span><br>Basketball, Cricket, Chess</li>
+                                <li><span>Musical Instrument</span><br>Guitar, Piano</li>
+                                <li><span>Others</span><br>Travelling, Sketching</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021-2025</span><br>B.Tech with CSE at Techno India University</li>
+                                <li><span>2018-2020</span><br>Secondary Education with PCM at Sudhir Memorial Institute</li>
+                                <li><span>2006-2018</span><br>At St. Paul's High School</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        <section id="expi" class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Experience / Projects</h1>
+            <div class="box">
+                
+                <div class="vertical">
+                    <img class="image-top" src="dev.png" alt="">
+                    <div class="vertical-title">
+                       <span> Full Stack Developer Intern <br><b>IEEE Bombay Section</b></span> <br> (Sept 2023 - Oct 2023)
+                    </div>
+                    <div class="vertical-desc">
+                        As a Team Lead for the Color Palette Generator project, I managed a multidisciplinary team to design, develop, and launch a web-based app for creating color palettes. Responsibilities include project planning, task delegation, technical oversight, and ensuring quality assurance. I also had to communicate with stakeholders to provide updates and incorporate feedback, ensuring the project's timely and successful completion. <br>Tools used: Svelte kit, HTML, CSS, JavaScript, Python
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="dev.png" alt="">
+                    <div class="vertical-title">
+                        <span>Mammographic Mass Classification as Benign or Malignant</span> | Self Project <br> (April 2023 - July 2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Used machine learning algorithms like logistic regression, svm , decision tree and random forest to classify mammographic mass as benign or malignant achieving an accuracy of 0.84. <br> tools used: anaconda, pyhton, scikit learn  
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="dev.png" alt="">
+                    <div class="vertical-title">
+                        <span>Responsive Portfolio Website</span> | Self Project <br>(Nov 2022 - Dec 2022)
+                    </div>
+                    <div class="vertical-desc">
+                        The Responsive Portfolio Website project involves designing and developing a dynamic, user-friendly web portfolio that adapts seamlessly across devices. This project aims to showcase an individual's or company's work, skills, and achievements with a modern, visually appealing design. Key tasks include creating an intuitive layout, implementing responsive design principles, optimizing performance, and ensuring cross-browser compatibility. <br> Tools used: HTML, CSS, JavaScript
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="dev.png" alt="">
+                    <div class="vertical-title">
+                        <span>Library Management System</span> | Self Project <br>(Ongoing)
+                    </div>
+                    <div class="vertical-desc">
+                        Developed a web application for library management system having admin, staff, student modules. The frontend was developed using reactjs and the backend apis were developed in spring boot. Automatic email reminders for returning books <br> Tools used: reactjs, spring boot, javamail api, server os: centos, apache tomcat
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="conttact" class="thirdSection">
+            <h1>Let's Connect</h1>
+            <div class="background">
+                <div class="container">
+                  <div class="screen">
+                    <div class="screen-header">
+                      <div class="screen-header-left">
+                        <div class="screen-header-button close"></div>
+                        <div class="screen-header-button maximize"></div>
+                        <div class="screen-header-button minimize"></div>
+                      </div>
+                      <div class="screen-header-right">
+                        <div class="screen-header-ellipsis"></div>
+                        <div class="screen-header-ellipsis"></div>
+                        <div class="screen-header-ellipsis"></div>
+                      </div>
+                    </div>
+                    <div class="screen-body">
+                      <div class="screen-body-item left">
+                        <div class="app-title">
+                          <span>CONTACT</span>
+                          <span>US</span>
+                        </div>
+                        <div class="app-contact">CONTACT INFO : +91 62035 23371</div>
+                      </div>
+                      <div class="screen-body-item">
+                        <div class="app-form">
+                          <div class="app-form-group">
+                            <input class="app-form-control" placeholder="NAME" >
+                          </div>
+                          <div class="app-form-group">
+                            <input class="app-form-control" placeholder="EMAIL">
+                          </div>
+                          <div class="app-form-group">
+                            <input class="app-form-control" placeholder="CONTACT NO">
+                          </div>
+                          <div class="app-form-group message">
+                            <input class="app-form-control" placeholder="MESSAGE">
+                          </div>
+                          <div class="app-form-group buttons">
+                            <button class="app-form-button">CANCEL</button>
+                            <button class="app-form-button">SEND</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3></h3>
+            </div>
+            <div class="footer-second"></div>
+            <div class="footer-third"></div>
+            <div class="footer-fourth"></div>
+        </div>
+        <div class="footer-rights">
+            Copyrights &#169; Portfolio | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Full Stack Developer', 'Data Scientist','Software Developer'],
+            typeSpeed: 50,
+        });
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+</body>
+
+</html>
